@@ -143,7 +143,7 @@ plt.bar(modeller, hatalar, color=['gray', 'blue', 'green', 'orange'])
 plt.ylabel('MAE (Hata Payı - TL)')
 plt.title('Modellerin Performans Karşılaştırması (Düşük olan daha iyi)')
 plt.grid(axis='y', linestyle='--', alpha=0.7)
-plt.savefig('plots/model_karsilastirma.png') # Grafiği bilgisayarına kaydeder
+plt.savefig('plots/model_karsilastirma.png')
 print("Performans grafiği 'model_karsilastirma.png' olarak kaydedildi.")
 
 # GERÇEK VS TAHMİN GRAFİĞİ (Son 100 Saat)
